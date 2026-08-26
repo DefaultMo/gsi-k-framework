@@ -1,0 +1,13 @@
+# Rust
+/target
+
+# Generated outputs
+sessions/
+session_report.csv
+*.xlsx
+
+# Never commit credentials or local config
+.env
+*.key
+*.pem
+config.local.*
